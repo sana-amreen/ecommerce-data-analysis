@@ -1,12 +1,12 @@
-#Target E-Commerce Data Analysis
+# Target E-Commerce Data Analysis
 
 Analysis of Target's e-commerce orders using Python and SQL to uncover insights on revenue, customer behavior, and delivery performance.
 
-##Overview
+## Overview
 
 This project performs an end-to-end exploratory data analysis of Target's e-commerce operations in Brazil. Using Python and SQLite, I analyzed 1M+ orders across 7 interconnected tables to answer 20 real-world business questions covering customer behavior, revenue trends, seller performance, and operational metrics.
 
-##Dataset
+## Dataset
 
 * Source: __e-Commerce (Target) Sales Dataset — Kaggle__
 * Size: 1M+ orders
@@ -14,21 +14,21 @@ This project performs an end-to-end exploratory data analysis of Target's e-comm
 * Coverage: Target's e-commerce operations across Brazil
 * Tables: orders, customers, products, sellers, payments, order_items, geolocation
   
-##Tools & Technologies
+## Tools & Technologies
 
 * Python — Pandas, Matplotlib, Seaborn
 * Database — SQLite
 * Environment — Jupyter Notebook
   
-##Business Questions Answered
+## Business Questions Answered
 
-###Basic Analysis
+### Basic Analysis
 1. List all unique cities where customers are located
 2. Count the number of orders placed in 2017
 3. Count the number of customers from each state
 4. Calculate the number of orders per month in 2018
    
-###Intermediate Analysis
+### Intermediate Analysis
 1. Find the total sales per product category
 2. Calculate the percentage of orders paid in installments
 3. Find the average number of products per order grouped by customer city
@@ -41,14 +41,14 @@ This project performs an end-to-end exploratory data analysis of Target's e-comm
 10. Which seller has the highest order cancellation rate
 11. Find the average delivery time per state
     
-###Advanced Analysis
+### Advanced Analysis
 1. Calculate the moving average of order values for each customer over their order history
 2. Calculate cumulative sales per month for each year
 3. Calculate the year-over-year growth rate of total sales
 4. Calculate the retention rate of customers — defined as the percentage of customers who make another purchase within 6 months
 5. Identify the top 3 customers who spent the most money in each year
    
-##Key Insights
+## Key Insights
 
 * Installment Payments: 49% of customers paid in installments rather than in full
 * Top Revenue Category: Bed-Table-Bath contributed the highest revenue
@@ -58,7 +58,7 @@ This project performs an end-to-end exploratory data analysis of Target's e-comm
 * Top State by Order Value: PB(Paraíba) had the highest average order value at $248.33
 * YoY Growth: Total sales grew by 20% from 2017 to 2018
   
-##What I Learned
+## What I Learned
 
 * Writing complex SQL queries including window functions, CTEs, and subqueries
 * Handling and cleaning real-world messy data with 1M+ rows
